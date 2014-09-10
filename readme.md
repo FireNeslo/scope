@@ -2,8 +2,13 @@ nslo-scope - v0.0.0
 ===
 angular like scope object
 ## Install
+### npm
 ```bash
 $ npm install FireNeslo/scope --save
+```
+### bower
+```bash
+$ bower install FireNeslo/scope --save
 ```
 ## Usage
 ```js
