@@ -65,11 +65,10 @@ gulp.task('docs', function () {
     .pipe(gulp.dest('.'));
 });
 
-
 gulp.task('build', ['test','clean', 'docs'], function () {
   var bundler = browserify({
     entries: [pkg.main],
-    standalone: pkg.name.split('-').slice(1).join('-')
+    standalone: pkg.title
   });
 
   var bundle = function() {
