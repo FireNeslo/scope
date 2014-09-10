@@ -1,0 +1,64 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/fireneslo/.nvm/v0.11.13/bin/node',
+1 verbose cli   '/home/fireneslo/.nvm/v0.11.13/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'FireNeslo/scope' ]
+2 info using npm@1.4.9
+3 info using node@v0.11.13
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'FireNeslo/scope', null ]
+6 verbose cache add name=undefined spec="FireNeslo/scope" args=["FireNeslo/scope",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'FireNeslo/scope',
+7 verbose parsed url   path: 'FireNeslo/scope',
+7 verbose parsed url   href: 'FireNeslo/scope' }
+8 silly lockFile a25aabc5-FireNeslo-scope FireNeslo/scope
+9 verbose lock FireNeslo/scope /home/fireneslo/.npm/a25aabc5-FireNeslo-scope.lock
+10 info maybeGithub Attempting FireNeslo/scope from git://github.com/FireNeslo/scope
+11 silly lockFile 4df1943e-git-github-com-FireNeslo-scope git://github.com/FireNeslo/scope
+12 verbose lock git://github.com/FireNeslo/scope /home/fireneslo/.npm/4df1943e-git-github-com-FireNeslo-scope.lock
+13 verbose addRemoteGit [ 'git://github.com/FireNeslo/scope', 'master' ]
+14 verbose git remote.origin.url git://github.com/FireNeslo/scope
+15 verbose git fetch -a origin (git://github.com/FireNeslo/scope)
+16 error Failed resolving git HEAD (git://github.com/FireNeslo/scope) fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+16 error Failed resolving git HEAD (git://github.com/FireNeslo/scope) Use '--' to separate paths from revisions, like this:
+16 error Failed resolving git HEAD (git://github.com/FireNeslo/scope) 'git <command> [<revision>...] -- [<file>...]'
+17 silly lockFile 4df1943e-git-github-com-FireNeslo-scope git://github.com/FireNeslo/scope
+18 silly lockFile 4df1943e-git-github-com-FireNeslo-scope git://github.com/FireNeslo/scope
+19 info maybeGithub Attempting FireNeslo/scope from git+ssh://git@github.com:FireNeslo/scope
+20 silly lockFile 0eec158f-git-github-com-FireNeslo-scope git@github.com:FireNeslo/scope
+21 verbose lock git@github.com:FireNeslo/scope /home/fireneslo/.npm/0eec158f-git-github-com-FireNeslo-scope.lock
+22 verbose addRemoteGit [ 'git@github.com:FireNeslo/scope', 'master' ]
+23 error git clone git@github.com:FireNeslo/scope Cloning into bare repository '/home/fireneslo/.npm/_git-remotes/git-github-com-FireNeslo-scope-0eec158f'...
+23 error git clone git@github.com:FireNeslo/scope Permission denied (publickey).
+23 error git clone git@github.com:FireNeslo/scope fatal: Could not read from remote repository.
+23 error git clone git@github.com:FireNeslo/scope
+23 error git clone git@github.com:FireNeslo/scope Please make sure you have the correct access rights
+23 error git clone git@github.com:FireNeslo/scope and the repository exists.
+24 silly lockFile 0eec158f-git-github-com-FireNeslo-scope git@github.com:FireNeslo/scope
+25 silly lockFile 0eec158f-git-github-com-FireNeslo-scope git@github.com:FireNeslo/scope
+26 silly lockFile a25aabc5-FireNeslo-scope FireNeslo/scope
+27 silly lockFile a25aabc5-FireNeslo-scope FireNeslo/scope
+28 error addLocal Could not install FireNeslo/scope
+29 error Error: ENOENT, stat 'FireNeslo/scope'
+29 error     at Error (native)
+30 error If you need help, you may report this *entire* log,
+30 error including the npm and node versions, at:
+30 error     <http://github.com/npm/npm/issues>
+31 error System Linux 3.11.0-18-generic
+32 error command "/home/fireneslo/.nvm/v0.11.13/bin/node" "/home/fireneslo/.nvm/v0.11.13/bin/npm" "install" "FireNeslo/scope"
+33 error cwd /home/fireneslo/Dropbox/nslo/scope
+34 error node -v v0.11.13
+35 error npm -v 1.4.9
+36 error path FireNeslo/scope
+37 error code ENOENT
+38 error errno -2
+39 verbose exit [ -2, true ]

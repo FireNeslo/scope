@@ -2,6 +2,10 @@
   "name": "nslo-scope",
   "version": "0.0.0",
   "description": "angular like scope object",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/FireNeslo/scope.git"
+  },
   "authors": [
     "Øystein Ø. Olsen <fireneslo@gmail.com>"
   ],
