@@ -1,9 +1,9 @@
 nslo-scope - v0.0.0
 ===
 angular like scope object
-## install
+## Install
 ```bash
-$ npm install nslo-scope --save
+$ npm install FireNeslo/scope --save
 ```
 ## Usage
 ```js
@@ -20,6 +20,11 @@ scope.cool = { "neat" : "stuff", hello: "dude" }
 scope.hello = "world";
 
 scope.$apply();
+```
+## Test
+```bash
+$ npm install -g mocha
+$ npm test
 ```
 ##API
 

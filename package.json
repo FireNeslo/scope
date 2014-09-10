@@ -3,10 +3,7 @@
   "version": "0.0.0",
   "description": "angular like scope object",
   "author": "Øystein Ø. Olsen <fireneslo@gmail.com>",
-  "repository" : { 
-    "type" : "git",
-    "url" : "http://github.com/FireNeslo/scope.git"
-  },
+  "repository" : "FireNeslo/scope",
   "license": "MIT",
   "ignore": [
     "**/.*",

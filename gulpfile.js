@@ -22,7 +22,7 @@ var docHeader = [
   '<%= pkg.description %>',
   '## Install',
   '```bash',
-  '$ npm install <%= pkg.name %> --save',
+  '$ npm install <%= pkg.repository %> --save',
   '```',
   '## Usage',
   '```js',
